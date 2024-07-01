@@ -4,10 +4,11 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 import os
+
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'ros2_test_tutorials'
+project = 'ros2_test_tutorials_es'
 copyright = '2024, Alex'
 author = 'Alex'
 release = '1.0'
@@ -22,7 +23,7 @@ extensions = [
 templates_path = ['_templates']
 exclude_patterns = []
 
-
+language = 'es'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
@@ -30,4 +31,4 @@ exclude_patterns = []
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
-html_build_dir = os.environ.get('READTHEDOCS_OUTPUT', 'docs/en/build/html')
+html_build_dir = os.environ.get('READTHEDOCS_OUTPUT', 'docs/es/build/html')
