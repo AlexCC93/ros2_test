@@ -1,20 +1,30 @@
-.. ros2_test_tutorials documentation master file, created by
-   sphinx-quickstart on Mon Jul  1 12:33:44 2024.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Welcome to the ROS 2 course
+===================================
 
-Welcome to ros2_test_tutorials's documentation!
-===============================================
+ROS 2 offers a powerful platform for building, simulating and deploying robotic applications. The fundamentals of ROS 2 architecture, communication mechanisms and package management will be studied during this course. 
+
+Let's dive in and unlock the potential of ROS 2.
+
+This entire course is based on the ROS 2 documentation webpage: https://docs.ros.org/en/humble/index.html. 
+
+Contents
+--------
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   ROS 2 basics
+   Installation and software setup
+   Configuring environment
+   Nodes
+   Topics
+   Writing publisher and subscriber nodes. Python
+   Writing publisher and subscriber nodes. C++
+   Services
+   Writing service and client. Python
+   Writing service and client. C++
+   Creating custom msg and srv. Python
+   Creating custom msg and srv. C++
+   Parameters
+   Launch files
+   ROS 2 utilites
+   Final project
+   
