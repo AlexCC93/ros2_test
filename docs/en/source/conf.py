@@ -16,7 +16,8 @@ release = '1.0'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    'sphinx.ext.autosectionlabel'
+    'sphinx.ext.autosectionlabel',
+    'sphinx_copybutton'
 ]
 
 templates_path = ['_templates']
